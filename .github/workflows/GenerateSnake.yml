@@ -18,7 +18,7 @@ jobs:
         id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
-          svg_out_path: assets
+          svg_out_path: ./assets
 
       - name: Push to GitHub
         uses: EndBug/add-and-commit@v7.2.1
